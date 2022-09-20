@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ngx-app',
-  template: `<router-outlet></router-outlet>`,
-
+  templateUrl: './app.components.html',
 })
 export class AppComponent {
   title = 'E-commerce-app';
